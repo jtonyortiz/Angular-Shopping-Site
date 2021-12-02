@@ -1,0 +1,86 @@
+
+  <!-- Jumbotron Header -->
+  <header class="jumbotron my-4">
+    <h1 class="display-3 text-center">Store Departments</h1>
+    <p class="lead text-center">Below you will find descriptions of all of the store departments and goods we provide!</p>
+  </header>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <div class="card">
+          <img src="{{departments[0].images}}" class="card-img-top" alt="{{departments[0].department}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{departments[0].department}}</h5>
+              <p class="card-text">Daily accessories, and furtniture for home decor</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/needs">Go To Department</a>
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{departments[1].images}}" class="card-img-top" alt="{{departments[1].department}}">
+          <div class="card-body text-center ">
+              <h5 class="card-title">{{departments[1].department}}</h5>
+              <p class="card-text">Electrical devices, cameras, and accessories.</p>
+          </div>
+          <div class="card-footer text-center">
+
+            <a href="#" class="btn btn-primary" routerLink="/electronics">Go To Department</a>
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{departments[2].images}}" class="card-img-top" alt="{{departments[2].department}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{departments[2].department}}</h5>
+              <p class="card-text">Kitchenware, and appliances</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/kitchen">Go To Department</a>  
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{departments[3].images}}" class="card-img-top" alt="{{departments[3].department}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{departments[3].department}}</h5>
+              <p class="card-text">Computers for multiple uses</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/computers">Go To Department</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="{{departments[4].images}}" class="card-img-top" alt="{{departments[4].department}}">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{departments[4].department}}</h5>
+            <p class="card-text">Great books from world-famous authors</p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary" routerLink="/books">Go To Department</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="{{departments[5].images}}" class="card-img-top" alt="{{departments[5].department}}">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{departments[5].department}}</h5>
+            <p class="card-text">Helpful software for your computer applications</p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary" routerLink="/software">Go To Department</a>
+        </div>
+    </div>
+  </div>
+</div>
+

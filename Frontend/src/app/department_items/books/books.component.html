@@ -1,0 +1,91 @@
+
+  <!-- Jumbotron Header -->
+  <header class="jumbotron my-4">
+    <h1 class="display-3 text-center">Books Section</h1>
+    <p class="lead text-center">Below you will find descriptions of all of the store departments and goods we provide!</p>
+  </header>
+
+<!-- Bootstrap Cards Layout: -->
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <div class="card">
+          <img src="{{books[0].images}}" class="card-img-top" alt="{{books[0].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{books[0].item}}</h5>
+              <p class="card-price">Price: ${{books[0].price}}</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{books[1].images}}" class="card-img-top" alt="{{books[1].item}}">
+          <div class="card-body text-center ">
+              <h5 class="card-title">{{books[1].item}}</h5>
+              <p class="card-price">Price: ${{books[1].price}}</p>
+
+          </div>
+          <div class="card-footer text-center">
+
+            <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{books[2].images}}" class="card-img-top" alt="{{books[2].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{books[2].item}}</h5>
+              <p class="card-price">Price: ${{books[2].price}}</p>
+
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>  
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{books[3].images}}" class="card-img-top" alt="{{books[3].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{books[3].item}}</h5>
+              <p class="card-price">Price: ${{books[3].price}}</p>
+
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" id="product-page-add-to-cart" routerLink="/cart">Add To Cart</a>
+            <a href="#" class="btn btn-primary" id="product-page-buynow" routerLink="/cart">Buy now</a>          </div>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="{{books[4].images}}" class="card-img-top" alt="{{books[4].item}}">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{books[4].item}}</h5>
+            <p class="card-price">Price: ${{books[4].price}}</p>
+
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary" id="product-page-add-to-cart" routerLink="/cart">Add To Cart</a>
+          <a href="#" class="btn btn-primary" id="product-page-buynow" routerLink="/cart">Buy now</a>        </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="{{books[5].images}}" class="card-img-top" alt="{{books[5].item}}">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{books[5].item}}</h5>
+            <p class="card-price">Price: ${{books[5].price}}</p>
+
+        </div>
+        <div class="card-footer text-center">
+
+        </div>
+    </div>
+  </div>
+</div>

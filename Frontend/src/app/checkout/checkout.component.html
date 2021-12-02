@@ -1,0 +1,53 @@
+  <!-- Jumbotron Header -->
+  <header class="jumbotron my-4">
+    <h1 class="display-3 text-center">Store Checkout</h1>
+    <p class="lead text-center">Please confirm your Home Address and Information Below!</p>
+</header>
+
+<!-- Checkout FORM -->
+<form action="" method="post">
+
+  <!-- User Information: -->
+  <div class="form-row">
+    <h3>User Info</h3>
+    <div class="form-group col-md-6">
+      <label for="first-name">First Name</label>
+      <input type="text" class="form-control" id="first-name" placeholder="First Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="last-name">Last Name</label>
+      <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+    </div>
+  </div>
+
+<!-- Shipping Address-->
+  <h3>Shipping Address</h3>
+  <div class="form-group">
+    <label for="street-address">Street Address </label>
+    <input type="text" class="form-control" id="street-address" placeholder="Street Address">
+  </div>
+  <div class="form-group">
+    <label for="city">City</label>
+    <input type="text" class="form-control" id="city" placeholder="City">
+  </div>
+  <div class="form-group">
+    <label for="state">State</label>
+    <input type="text" class="form-control" id="state" placeholder="State">
+  </div>
+  <div class="form-group">
+    <label for="zip-code">Zip Code</label>
+    <input type="text" class="form-control" id="zip-code" placeholder="Zip Code">
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+
+   <!-- Checkout Button on Form-->
+  <button type="checkout-button" class="btn btn-primary">Place Order</button>
+
+</form>

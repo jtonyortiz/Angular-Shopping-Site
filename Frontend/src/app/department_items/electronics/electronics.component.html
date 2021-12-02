@@ -1,0 +1,92 @@
+
+  <!-- Jumbotron Header -->
+  <header class="jumbotron my-4">
+    <h1 class="display-3 text-center">Electronics Section</h1>
+    <p class="lead text-center">Below you will find descriptions of all of the store departments and goods we provide!</p>
+  </header>
+
+<!-- Bootstrap Cards Layout: -->
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <div class="card">
+          <img src="{{electronics[0].images}}" class="card-img-top" alt="{{electronics[0].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{electronics[0].item}}</h5>
+              <p class="card-price">Price: ${{electronics[0].price}}</p>
+
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{electronics[1].images}}" class="card-img-top" alt="{{electronics[1].item}}">
+          <div class="card-body text-center ">
+              <h5 class="card-title">{{electronics[1].item}}</h5>
+              <p class="card-price">Price: ${{electronics[1].price}}</p>
+
+          </div>
+          <div class="card-footer text-center">
+
+            <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{electronics[2].images}}" class="card-img-top" alt="{{electronics[2].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{electronics[2].item}}</h5>
+              <p class="card-price">Price: ${{electronics[2].price}}</p>
+
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>  
+          </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+          <img src="{{electronics[3].images}}" class="card-img-top" alt="{{electronics[3].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{electronics[3].item}}</h5>
+              <p class="card-price">Price: ${{electronics[3].price}}</p>
+
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="{{electronics[4].images}}" class="card-img-top" alt="{{electronics[4].item}}">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{electronics[4].item}}</h5>
+            <p class="card-price">Price: ${{electronics[4].price}}</p>
+
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="{{electronics[5].images}}" class="card-img-top" alt="{{electronics[5].item}}">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{electronics[5].item}}</h5>
+            <p class="card-price">Price: ${{electronics[5].price}}</p>
+
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary" routerLink="/cart">Add To Cart</a>
+        </div>
+    </div>
+  </div>
+</div>

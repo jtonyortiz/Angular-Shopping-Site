@@ -1,0 +1,132 @@
+
+  <!-- Jumbotron Header -->
+  <header class="jumbotron my-4">
+    <h1 class="display-3 text-center">Store Offers</h1>
+    <p class="lead text-center">The best offers in town!</p>
+  </header>
+
+<!-- Bootstrap Cards for Offers Component-->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+        <div class="card">
+            <img src="{{offers[0].images}}" class="card-img-top" alt="{{offers[0].item}}">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{offers[0].item}}</h5>
+                <p class="card-old-price">Old Price: ${{offers[0].price}}</p>
+                <p class="card-new-price">New Price: ${{offers[0].newprice}}</p>
+                <p class="card-discount">Discount: ${{offers[0].discount}}</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary" routerLink="">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="{{offers[1].images}}" class="card-img-top" alt="{{offers[1].item}}">
+            <div class="card-body text-center ">
+                <h5 class="card-title">{{offers[1].item}}</h5>
+                <p class="card-old-price">Old Price: ${{offers[1].price}}</p>
+                <p class="card-new-price">New Price: ${{offers[1].newprice}}</p>
+                <p class="card-discount">Discount: ${{offers[1].discount}}</p>
+            </div>
+            <div class="card-footer">
+  
+              <a href="#" class="btn btn-primary" routerLink="">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="{{offers[2].images}}" class="card-img-top" alt="{{offers[2].item}}">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{offers[2].item}}</h5>
+                <p class="card-old-price">Old Price: ${{offers[2].price}}</p>
+                <p class="card-new-price">New Price: ${{offers[2].newprice}}</p>
+                <p class="card-discount">Discount: ${{offers[2].discount}}</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary" routerLink="">Add To Cart</a>  
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="{{offers[3].images}}" class="card-img-top" alt="{{offers[3].item}}">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{offers[3].item}}</h5>
+                <p class="card-old-price">Old Price: ${{offers[3].price}}</p>
+                <p class="card-new-price">New Price: ${{offers[3].newprice}}</p>
+                <p class="card-discount">Discount: ${{offers[3].discount}}</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary" routerLink="">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+  
+    <div class="col">
+      <div class="card">
+          <img src="{{offers[4].images}}" class="card-img-top" alt="{{offers[4].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{offers[4].item}}</h5>
+              <p class="card-old-price">Old Price: ${{offers[4].price}}</p>
+              <p class="card-new-price">New Price: ${{offers[4].newprice}}</p>
+              <p class="card-discount">Discount: ${{offers[4].discount}}</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary" routerLink="">Add To Cart</a>
+          </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="card">
+          <img src="{{offers[5].images}}" class="card-img-top" alt="{{offers[5].item}}">
+          <div class="card-body text-center">
+              <h5 class="card-title">{{offers[5].item}}</h5>
+              <p class="card-old-price">Old Price: ${{offers[5].price}}</p>
+              <p class="card-new-price">New Price: ${{offers[5].newprice}}</p>
+              <p class="card-discount">Discount: ${{offers[5].discount}}</p>
+          </div>
+          <div class="card-footer justify-content-center">
+            <a href="#" class="btn btn-primary" routerLink="">Add To Cart</a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<!--
+
+<div class="container home-container">
+  <div class="offers">
+    <ng-container *ngFor="let data of offers">
+      <div class="offer">
+        <div class="offer-thumb-container">
+          <img
+            src="{{ data.image }}"
+            alt="{{ data.name }}"
+            class="offer-thumbnail img-responsive"
+          />
+        </div>
+        <div class="offer-description">
+          <p class="offer-item">{{ data.name }}</p>
+          <p class="offer-item">{{ data.newprice }}</p>
+          <div class="offer-details">
+            <p class="offer-desc offer-dic">Price: {{ data.price }}</p>
+            |
+            <p class="offer-desc">Discount: {{ data.discount }}</p>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
+--->
+

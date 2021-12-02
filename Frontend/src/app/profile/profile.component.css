@@ -1,0 +1,55 @@
+.profile-container {
+  height: 100% !important;
+}
+
+.user-thumbnail {
+  height: 100px;
+  width: 100px;
+  margin-top: 25px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.profile-nav {
+  margin-top: 30px;
+}
+
+.info {
+  background: #ffc107;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.user-thumbnail {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+.heading1 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.heading2 {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.profile-heading-container {
+  padding: 15px;
+}
+
+.profile-heading1 {
+  height: 5px;
+}
+
+.profile-row {
+  margin-bottom: 10px;
+  padding: 0 15px;
+}

@@ -1,0 +1,83 @@
+<!-- nav -->
+<nav class="navbar navbar-expand-md navbar-light fixed bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Shop 24x7</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/login">Login</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/register">Register</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/departments">Departments</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/offers">Offers</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/profile">Profile</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/cart">Cart</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/checkout">Checkout</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/admin">Admin</a>
+        </li>
+          
+        
+      </ul>
+      <form class="d-flex">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search Products"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- main content container -->
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- **** Footer For Main Webpage --->
+<div class="bg-warning text-center text-lg-start">
+  <div class="text-left p-3">©2021 Copyright</div>
+</div>
